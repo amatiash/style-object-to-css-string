@@ -15,7 +15,7 @@ Just in case, this package also exposes the ability to access or generate additi
 #### Without styled-components
 
 ```javascript
-import styleToCss from 'style-obj-to-css-string';
+import styleToCss from 'style-object-to-css-string';
 // I now regret my choice in package name
 
 const styles = {
@@ -36,7 +36,7 @@ const styleString = styleToCss(styles);
 
 ```javascript
 import styled from 'styled-components';
-import styleToCss from 'style-obj-to-css-string';
+import styleToCss from 'style-object-to-css-string';
 
 const StyledThingy = styled.p`
   ${/* Place properties that you will allow to be overwritten here - typically stylistic properties */}
